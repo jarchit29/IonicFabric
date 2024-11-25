@@ -1,10 +1,4 @@
-import logo from "../../Style/Images/logo3.png";
-import welcomeLogo from "../../Style/Images/welcome-logo.png";
-import slideImg1 from "../../Style/Images/slide_img1.png";
-import slideImg2 from "../../Style/Images/slide_img2.png";
-import slideImg3 from "../../Style/Images/slide_img3.png";
-import slideImg4 from "../../Style/Images/slide_img4.png";
-import slideImg5 from "../../Style/Images/slide_img5.png";
+import welcomeLogo from "../../Style/Images/heartLogo1.svg";
 import { useHistory } from "react-router-dom";
 
 const SlideThree = () => {
@@ -13,47 +7,34 @@ const SlideThree = () => {
   return (
     <>
       <div id="onboardingCntr">
+
         <div className="wel-logo">
-          <a href="#">
-            <img src={logo} alt="homeconnection logo" />
-          </a>
+
+          <div class="loading mt-2">
+            <svg width="64px" height="48px" className="mt-2">
+              <polyline points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24" id="back"></polyline>
+              <polyline points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24" id="front"></polyline>
+            </svg>
+          </div>
+
         </div>
         <div className="welcome-logo">
-          <img src={welcomeLogo} alt="welcome logo " />
+          <img width="64px" height="28px" src={welcomeLogo} alt="welcome logo " />
         </div>
+
         <div className="prop-detail">
-          <h3 className="ff-reg font_20 white">
-            How to view your
-            <span className="ff-bold  font_28 white">My bids</span>
+          <h3 className="ff-reg font_20 secondary">
+            Medicine Salts ? 
+            <span className="ff-bold  font_28 secondary">My Meds</span>
           </h3>
-          <p className="ff-reg font_18 white">
-            You are able to see 'My bids' and this lists out all your current
-            bids shortlisted bids previous bids etc.
+          <p className="ff-reg font_18 secondary">
+            User can find replacement of medicines, using my meds. Can record the medicines taken for a problem and results can be shared with doctors. 
           </p>
         </div>
-        {/* <div className="welcomeArea">
-          <div className="page-image">
-            <div className="img-area">
-              <img src={slideImg1} />
-            </div>
-            <div className="img-area">
-              <img src={slideImg2} />
-            </div>
-            <div className="img-area">
-              <img src={slideImg3} />
-            </div>
-            <div className="img-area">
-              <img src={slideImg4} />
-            </div>
-            <div className="img-area">
-              <img src={slideImg5} />
-            </div>
-          </div>
-          <div className="clearfix"></div>
-        </div> */}
+
 
         <button
-          className="ff-semi skip font_18 white"
+          className="ff-semi skip font_18 secondary"
           onClick={() => {
             history.push("/PortalList");
             localStorage.setItem("firstTimeOnboarding", "false");

@@ -1,7 +1,8 @@
 {
-  "name": "Home Connect",
+  "name": "The Heart",
   "integrations": {
     "capacitor": {}
   },
   "type": "react"
 }
+

@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.hc.hcmobile',
-  appName: 'Home Connect',
+  appId: 'com.heart.heartapp',
+  appName: 'The Heart',
   webDir: 'build',
   bundledWebRuntime: false,
   // ios: {

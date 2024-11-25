@@ -8,6 +8,8 @@ import ResponseFromPropertyDetailsSlice from "./ResponseFromPropertyDetials";
 import ResponseFromMessagesSlice from "./ResponseFromMessages";
 import FilterOptionsSlice from "./FilterOptions";
 import AlertStatusSlice from "./AlertStatus";
+import QuestionSlice from "./QuestionSlice";
+
 
 const Store = configureStore({
   reducer: {
@@ -19,6 +21,7 @@ const Store = configureStore({
     ResponseFromMessages:ResponseFromMessagesSlice,
     FilterOptions:FilterOptionsSlice,
     AlertStatus: AlertStatusSlice,
+    QuestionSlice:QuestionSlice,
   },
 });
 
