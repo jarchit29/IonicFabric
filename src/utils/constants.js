@@ -1,3 +1,24 @@
+// Imports
+
+// Images
+import whatIsHeartAttackIcon from '../Style/Images/whatIsHeartAttack.png'
+import leftSideOfChestIcon from '../Style/Images/LeftChestArm.png'
+import wholeChestIcon from '../Style/Images/WholeChest.png'
+import centerOfChestIcon from '../Style/Images/centreOfChest.png'
+import leftSideOfCIcon from '../Style/Images/LeftSideOfChest.png'
+import upperAbdomenIcon from '../Style/Images/UpperAbdomen.png'
+import bothShoulderOrArmsIcon from '../Style/Images/BothShoulderAndArms.png'
+import neckIcon from '../Style/Images/Neck.png'
+import rightSideOfChestIcon from '../Style/Images/RHSOfChest.png'
+import backOfNeckIcon from '../Style/Images/BackOfNeckAndHead.png'
+import warningSignsIcon from '../Style/Images/warningSigns.png'
+import presentationInWomenIcon from '../Style/Images/presentationInWomen.png'
+import emergencyIcon from '../Style/Images/Emergency.png'
+import testIcon from '../Style/Images/test.png'
+import treatmentIcon from '../Style/Images/treatment.png'
+import preventionIcon from '../Style/Images/prevention.png'
+
+
 export const HIGH_BLOOD_PRESSURE = "I have high blood pressure(BP)";
 export const DIABETIC = "I am diabetic";
 export const SMOKE = "I smoke/ used to smoke";
@@ -73,3 +94,22 @@ export const INDETERMINATE = "Indeterminate";
 //Gender
 export const FEMALE = "female";
 export const MALE = "male";
+
+// Export images
+
+export const whatIsHeartAttack_Icon = whatIsHeartAttackIcon;
+export const leftSideOfChest_Icon = leftSideOfChestIcon;
+export const wholeChest_Icon = wholeChestIcon;
+export const centreOfChest_Icon = centerOfChestIcon;
+export const leftSide_OfC_Icon = leftSideOfCIcon;
+export const UpperPartOfAbdomen_Icon = upperAbdomenIcon;
+export const BothShoulderArms_Icon = bothShoulderOrArmsIcon;
+export const Neck_Icon = neckIcon;
+export const RHSChest_Icon = rightSideOfChestIcon;
+export const BackOfNeck_Icon = backOfNeckIcon;
+export const  WarningSigns_Icon= warningSignsIcon
+export const presentationInWomen_Icon= presentationInWomenIcon
+export const emergency_Icon = emergencyIcon
+export const test_Icon = testIcon
+export const treatment_Icon = treatmentIcon
+export const prevention_Icon = preventionIcon

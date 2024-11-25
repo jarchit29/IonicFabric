@@ -22,16 +22,16 @@ const KnowledgeBlogs = () => {
             <Header
                 backArrow={true}
                 hamBurgerMenu={false}
-                HeaderTitle=  {location.state.title}
+                HeaderTitle={location.state.title}
                 onBackArrow={onBackArrow}
             />
 
-            <div className="container pb-5 mt-80 ">
-                A content is expected here , to be come from API
+            <div className="container pb-5 mt-80 " dangerouslySetInnerHTML={{ __html: location?.state?.description }}>
+
             </div>
 
 
-          
+
 
         </div>
     )
